@@ -5,9 +5,6 @@ import org.openqa.selenium.Keys;
 
 import java.util.logging.Logger;
 
-import static com.codeborne.selenide.Selenide.$;
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class SeleniumHelper implements GenericVariables {
     // Logger
     protected final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
